@@ -28,10 +28,10 @@
     margin: 0 0 4px;
   }
 
-  // &:hover {
-  //   transform: scale(1.2);
-  //   transition: transform 300ms ease-in-out;
-  // }
+  &:hover {
+    transform: scale(1.2);
+    transition: transform 300ms ease-in-out;
+  }
 
   &__name:hover {
     color: $color-hover;
