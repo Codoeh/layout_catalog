@@ -3,6 +3,8 @@
   flex-direction: column;
   box-sizing: border-box;
   width: $card-width;
+
+  // height: 408px;
   border: 1px solid $card-border-color;
   border-radius: 5px;
   padding: 32px 16px 16px;
@@ -11,6 +13,7 @@
 
   &__image {
     display: block;
+
     margin: 0 auto 40px;
     width: 160px;
     height: 134px;
@@ -19,12 +22,13 @@
   &__name {
     display: block;
     height: 36px;
-    font-family: Roboto, serif;
+    font-family: Roboto, sans-serif;
 
     font-size: 12px;
     font-weight: 500;
     line-height: 18px;
     color: $card-main-color;
+    box-sizing: border-box;
     margin: 0 0 4px;
   }
 
@@ -39,7 +43,7 @@
   }
 
   &__code {
-    font-family: Roboto, serif;
+    font-family: Roboto, sans-serif;
     font-size: 10px;
     font-weight: 400;
     line-height: 14px;
@@ -47,6 +51,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: $card-secondary-color;
+    box-sizing: border-box;
     margin-bottom: 16px;
   }
 
@@ -62,10 +67,11 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 24px;
+    box-sizing: border-box;
   }
 
   &__reviews {
-    font-family: Roboto, serif;
+    font-family: Roboto, sans-serif;
     font-size: 10px;
     font-weight: 400;
     line-height: 14px;
@@ -79,11 +85,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
     margin-bottom: 16px;
   }
 
   &__price-text {
-    font-family: Roboto, serif;
+    font-family: Roboto, sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
@@ -91,7 +98,7 @@
   }
 
   &__price-value {
-    font-family: Roboto, serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 18px;
@@ -110,7 +117,7 @@
 
     text-decoration: none;
     border-radius: 5px;
-    font-family: Roboto, serif;
+    font-family: Roboto, sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
